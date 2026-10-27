@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  STAR7 CAD MSI (WiX Toolset v5: `dotnet tool install -g wix`, plus the WixUI extension:
+  STAR CAD MSI (WiX Toolset v5: `dotnet tool install -g wix`, plus the WixUI extension:
   `wix extension add -g WixToolset.UI.wixext/5.0.2`). Built by package.ps1:
 
     wix build cadcraft.wxs -arch x64 -ext WixToolset.UI.wixext -d Version=1.2.3 -d BinDir=... -d IconPath=... -o out.msi
 
   Per-machine install into Program Files, a Start Menu shortcut, an optional desktop shortcut, and
-  STAR7 CAD offered under "Open with" for .dxf and .dwg drawings (without taking over the user's
+  STAR CAD offered under "Open with" for .dxf and .dwg drawings (without taking over the user's
   default app).
 
   Desktop shortcut: the setup wizard asks (unchecked by default). Silent installs leave it out
@@ -18,18 +18,18 @@
   <?define HasCraftFontLicences=0 ?>
   <?endif ?>
   <Package
-      Name="STAR7 CAD"
+      Name="STAR CAD"
       Manufacturer="STAR7"
       Version="$(var.Version)"
       UpgradeCode="119D7D76-0167-4A9E-8F37-09DA0235F68E"
       Scope="perMachine"
       Compressed="yes"
       Language="1033">
-    <SummaryInformation Description="STAR7 CAD - Engenharia e Desenho" Manufacturer="STAR7" />
+    <SummaryInformation Description="STAR CAD - Engenharia e Desenho" Manufacturer="STAR7" />
     <!-- Same-version upgrades let successive pre-releases of one X.Y.Z replace each other
          (MSI versions are numeric, so 1.2.3-rc.1 and 1.2.3-rc.2 are both 1.2.3). -->
     <MajorUpgrade AllowSameVersionUpgrades="yes"
-        DowngradeErrorMessage="A newer version of STAR7 CAD is already installed." />
+        DowngradeErrorMessage="A newer version of STAR CAD is already installed." />
     <MediaTemplate EmbedCab="yes" CompressionLevel="high" />
 
     <Icon Id="CadcraftIcon.ico" SourceFile="$(var.IconPath)" />
@@ -39,7 +39,7 @@
     <Property Id="ARPHELPLINK" Value="https://star-7.app.br" />
 
     <StandardDirectory Id="ProgramFiles6432Folder">
-      <Directory Id="INSTALLFOLDER" Name="STAR7 CAD" />
+      <Directory Id="INSTALLFOLDER" Name="STAR CAD" />
     </StandardDirectory>
     <StandardDirectory Id="ProgramMenuFolder" />
     <!-- Per-machine (ALLUSERS=1), so this is the all-users (Public) desktop, like the Start Menu above. -->
@@ -51,7 +51,7 @@
     <!-- The previous install's choice (the shortcut component's HKCU key path, so the installing
          user's), so upgrades keep the desktop shortcut without asking again. -->
     <Property Id="PREVIOUSDESKTOPSHORTCUT">
-      <RegistrySearch Id="PreviousDesktopShortcut" Root="HKCU" Key="Software\STAR7\STAR7 CAD"
+      <RegistrySearch Id="PreviousDesktopShortcut" Root="HKCU" Key="Software\STAR7\STAR CAD"
           Name="DesktopShortcut" Type="raw" />
     </Property>
     <!-- Only when DESKTOPSHORTCUT wasn't given; "first" runs it once (in the UI sequence when there
@@ -61,7 +61,7 @@
 
     <UIRef Id="CadcraftUI" />
 
-    <Feature Id="Main" Title="STAR7 CAD" Level="1">
+    <Feature Id="Main" Title="STAR CAD" Level="1">
       <?if $(var.HasCraftFontLicences) = 1 ?>
       <ComponentGroupRef Id="CraftFontLicences" />
       <?endif ?>
@@ -78,8 +78,8 @@
     <ComponentGroup Id="CadcraftFiles" Directory="INSTALLFOLDER">
       <Component Id="CadcraftApp" Guid="2AC18056-48DE-4079-AB79-4FDEF4FBB075">
         <File Id="CadcraftExe" Source="$(var.BinDir)\cadcraft.exe" KeyPath="yes">
-          <Shortcut Id="StartMenuShortcut" Directory="ProgramMenuFolder" Name="STAR7 CAD"
-              Description="STAR7 CAD - Engenharia e Desenho" WorkingDirectory="INSTALLFOLDER" Advertise="yes"
+          <Shortcut Id="StartMenuShortcut" Directory="ProgramMenuFolder" Name="STAR CAD"
+              Description="STAR CAD - Engenharia e Desenho" WorkingDirectory="INSTALLFOLDER" Advertise="yes"
               Icon="CadcraftIcon.ico" IconIndex="0" />
         </File>
 
@@ -99,9 +99,9 @@
            Public desktop) must be under HKCU (ICE38, ICE43, ICE57). -->
       <Component Id="DesktopShortcut" Directory="DesktopFolder" Guid="76029CD7-EBDB-420F-AC34-FF0E82A99E32"
           Condition="DESKTOPSHORTCUT = &quot;1&quot;">
-        <Shortcut Id="DesktopShortcut" Name="STAR7 CAD" Description="STAR7 CAD - Engenharia e Desenho"
+        <Shortcut Id="DesktopShortcut" Name="STAR CAD" Description="STAR CAD - Engenharia e Desenho"
             Target="[INSTALLFOLDER]cadcraft.exe" WorkingDirectory="INSTALLFOLDER" Icon="CadcraftIcon.ico" IconIndex="0" />
-        <RegistryValue Root="HKCU" Key="Software\STAR7\STAR7 CAD" Name="DesktopShortcut"
+        <RegistryValue Root="HKCU" Key="Software\STAR7\STAR CAD" Name="DesktopShortcut"
             Value="1" Type="string" KeyPath="yes" />
       </Component>
     </ComponentGroup>
