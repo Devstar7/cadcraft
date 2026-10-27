@@ -1,0 +1,5 @@
+Kit de ícones STAR7 para Devstar7/cadcraft
+1. Substitua a pasta assets/app-icon do repositório por esta (mesmos nomes de arquivo).
+2. Apague docs/brand/artcraft-logo*.png/.svg (marca ArtCraft).
+3. NÃO apague LICENSE-MIT, LICENSE-APACHE nem NOTICE (exigência da licença).
+4. Publique um release; o Launcher passa a baixar a versão STAR7.
