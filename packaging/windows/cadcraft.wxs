@@ -33,6 +33,8 @@
     <MediaTemplate EmbedCab="yes" CompressionLevel="high" />
 
     <Icon Id="CadcraftIcon.ico" SourceFile="$(var.IconPath)" />
+    <WixVariable Id="WixUIBannerBmp" Value="$(var.BannerBmp)" />
+    <WixVariable Id="WixUIDialogBmp" Value="$(var.DialogBmp)" />
     <Property Id="ARPPRODUCTICON" Value="CadcraftIcon.ico" />
     <Property Id="ARPURLINFOABOUT" Value="https://suite.star-7.app.br" />
     <Property Id="ARPURLUPDATEINFO" Value="https://suite.star-7.app.br" />
