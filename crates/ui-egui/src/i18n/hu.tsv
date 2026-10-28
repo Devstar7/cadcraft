@@ -50,7 +50,7 @@
 	A drawing opened from a file keeps that file's format.	A fájlból megnyitott rajz megtartja a fájl formátumát.
 	A variable name starts with a letter and has only letters, digits and _	A változónév betűvel kezdődik, és csak betűt, számjegyet és _ jelet tartalmazhat
 	About	Névjegy
-	About CADCraft	A CADCraft névjegye
+	About STAR CAD	A STAR CAD névjegye
 	Absolute	Abszolút
 	Accessibility	Akadálymentesség
 	Add	Hozzáad
@@ -138,7 +138,7 @@
 	ByBlock	Blokk szerint
 	ByColor	Szín szerint
 	ByLayer	Réteg szerint
-	CADCraft Help	A CADCraft súgója
+	STAR CAD Help	A STAR CAD súgója
 	CADCraft keeps these preferences, object snap modes and drafting toggles for your user account and restores them when it starts.	A CADCraft ezeket a beállításokat, objektumillesztési módokat és rajzolási kapcsolókat a felhasználói fiókodhoz menti, és indításkor visszaállítja.
 	Calibrate	Kalibrálás
 	Calibrate 3D Mouse	3D egér kalibrálása
@@ -477,7 +477,7 @@
 	Hide All	Összes elrejtése
 	Hide All Constraint Bars	Összes kényszersáv elrejtése
 	Hide All Dynamic Dimensions	Összes dinamikus méret elrejtése
-	Hide CADCraft	A CADCraft elrejtése
+	Hide STAR CAD	A STAR CAD elrejtése
 	Hide Layer List	Réteglista elrejtése
 	Hide Objects	Objektumok elrejtése
 	Hide Others	Többi elrejtése
@@ -818,7 +818,7 @@
 	Quick Select...	Gyorskijelölés...
 	QuickCalc	Gyorsszámológép
 	QuickCalc Pick	Érték felvétele a gyorsszámológépbe
-	Quit CADCraft	Kilépés a CADCraftból
+	Quit STAR CAD	Kilépés a STAR CADból
 	Radius	Sugár
 	Raster Image	Raszterkép
 	Ray	Félegyenes

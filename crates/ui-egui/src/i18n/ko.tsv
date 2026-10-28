@@ -50,7 +50,7 @@
 	> Greater than	> 초과
 	A variable name starts with a letter and has only letters, digits and _	변수 이름은 문자로 시작하며 문자, 숫자, _만 사용할 수 있습니다
 	About	정보
-	About CADCraft	CADCraft 정보
+	About STAR CAD	STAR CAD 정보
 	Absolute	절대
 	Add Leader	지시선 추가
 	Additional angles	추가 각도
@@ -111,7 +111,7 @@
 	ByBlock	블록별
 	ByColor	색상별
 	ByLayer	도면층별
-	CADCraft Help	CADCraft 도움말
+	STAR CAD Help	STAR CAD 도움말
 	Cancel	취소
 	Cartesian (x, y)	직교 좌표(x, y)
 	Center	중심
@@ -698,7 +698,7 @@
 	Quick Select...	빠른 선택...
 	QuickCalc	빠른 계산기
 	QuickCalc Pick	빠른 계산기 점 지정
-	Quit CADCraft	CADCraft 종료
+	Quit STAR CAD	STAR CAD 종료
 	Radius	반지름
 	Raster Image	래스터 이미지
 	Ray	반직선
@@ -1176,7 +1176,7 @@
 @plural	{n} contributor	기여자 {n}명
 	Drawing as bytes	도면 바이트 데이터
 	Services	서비스
-	Hide CADCraft	CADCraft 숨기기
+	Hide STAR CAD	STAR CAD 숨기기
 	Hide Others	다른 앱 숨기기
 	Accessibility	접근성
 	Show System Cursor	시스템 커서 표시

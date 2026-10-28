@@ -52,7 +52,7 @@
 	> Greater than	> Більше ніж
 	A variable name starts with a letter and has only letters, digits and _	Ім'я змінної починається з літери й містить лише літери, цифри та _
 	About	Про програму
-	About CADCraft	Про CADCraft
+	About STAR CAD	Про STAR CAD
 	Absolute	Абсолютні
 	Add Leader	Додати виноску
 	Additional angles	Додаткові кути
@@ -114,7 +114,7 @@
 	ByBlock	За блоком
 	ByColor	За кольором
 	ByLayer	За шаром
-	CADCraft Help	Довідка CADCraft
+	STAR CAD Help	Довідка STAR CAD
 	Cancel	Скасувати
 	Cartesian (x, y)	Декартові (x, y)
 	Center	Центр
@@ -713,7 +713,7 @@
 	Quick Select...	Швидкий вибір...
 	QuickCalc	Калькулятор
 	QuickCalc Pick	Вибір для калькулятора
-	Quit CADCraft	Вийти з CADCraft
+	Quit STAR CAD	Вийти з STAR CAD
 	Radius	Радіус
 	Raster Image	Растрове зображення
 	Ray	Промінь
@@ -1226,7 +1226,7 @@
 @plural	{n} contributor	{n} учасник|{n} учасники|{n} учасників
 	Drawing as bytes	Креслення як байти
 	Services	Служби
-	Hide CADCraft	Приховати CADCraft
+	Hide STAR CAD	Приховати STAR CAD
 	Hide Others	Приховати інші
 	Accessibility	Спеціальні можливості
 	Show System Cursor	Показувати системний курсор

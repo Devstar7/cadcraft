@@ -55,7 +55,7 @@ menu	Modify	Edita
 	> Greater than	> Maggiore di
 	A variable name starts with a letter and has only letters, digits and _	Un nome di variabile inizia con una lettera e contiene solo lettere, cifre e _
 	About	Informazioni
-	About CADCraft	Informazioni su CADCraft
+	About STAR CAD	Informazioni su STAR CAD
 	Absolute	Assoluto
 	Add Leader	Aggiungi direttrice
 	Additional angles	Angoli aggiuntivi
@@ -117,7 +117,7 @@ menu	Modify	Edita
 	ByBlock	DaBlocco
 	ByColor	DaColore
 	ByLayer	DaLayer
-	CADCraft Help	Aiuto di CADCraft
+	STAR CAD Help	Aiuto di STAR CAD
 	Cancel	Annulla
 	Cartesian (x, y)	Cartesiane (x, y)
 	Center	Centro
@@ -707,7 +707,7 @@ menu	Modify	Edita
 	Quick Select...	Selezione rapida...
 	QuickCalc	CalcRapida
 	QuickCalc Pick	Punto CalcRapida
-	Quit CADCraft	Esci da CADCraft
+	Quit STAR CAD	Esci da STAR CAD
 	Radius	Raggio
 	Raster Image	Immagine raster
 	Ray	Semiretta
@@ -1184,7 +1184,7 @@ menu	Modify	Edita
 @plural	{n} contributor	{n} collaboratore|{n} collaboratori
 	Drawing as bytes	Disegno in byte
 	Services	Servizi
-	Hide CADCraft	Nascondi CADCraft
+	Hide STAR CAD	Nascondi STAR CAD
 	Hide Others	Nascondi altre
 	Accessibility	Accessibilità
 	Show System Cursor	Mostra cursore di sistema

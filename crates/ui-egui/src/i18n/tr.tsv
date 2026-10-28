@@ -49,7 +49,7 @@
 	A drawing opened from a file keeps that file's format.	Bir dosyadan açılan çizim o dosyanın biçimini korur.
 	A variable name starts with a letter and has only letters, digits and _	Değişken adı bir harfle başlar ve yalnızca harf, rakam ve _ içerir
 	About	Hakkında
-	About CADCraft	CADCraft Hakkında
+	About STAR CAD	STAR CAD Hakkında
 	Absolute	Mutlak
 	Accessibility	Erişilebilirlik
 	Add	Ekle
@@ -139,7 +139,7 @@
 	ByColor	RengeGöre
 	ByLayer	KatmanaGöre
 	CADCraft	CADCraft
-	CADCraft Help	CADCraft Yardımı
+	STAR CAD Help	STAR CAD Yardımı
 	CADCraft keeps these preferences, object snap modes and drafting toggles for your user account and restores them when it starts.	CADCraft bu tercihleri, nesne kenetleme kiplerini ve çizim seçeneklerini kullanıcı hesabınız için saklar ve açılışta geri yükler.
 	Calibrate	Kalibre Et
 	Calibrate 3D Mouse	3B Fareyi Kalibre Et
@@ -478,7 +478,7 @@
 	Hide All	Tümünü Gizle
 	Hide All Constraint Bars	Tüm Kısıtlama Çubuklarını Gizle
 	Hide All Dynamic Dimensions	Tüm Dinamik Ölçüleri Gizle
-	Hide CADCraft	CADCraft'ı Gizle
+	Hide STAR CAD	STAR CAD'ı Gizle
 	Hide Layer List	Katman Listesini Gizle
 	Hide Objects	Nesneleri Gizle
 	Hide Others	Diğerlerini Gizle
@@ -819,7 +819,7 @@
 	Quick Select...	Hızlı Seçim...
 	QuickCalc	Hızlı Hesap
 	QuickCalc Pick	Hızlı Hesap Seçimi
-	Quit CADCraft	CADCraft'tan Çık
+	Quit STAR CAD	STAR CAD'tan Çık
 	Radius	Yarıçap
 	Raster Image	Raster Görüntü
 	Ray	Işın

@@ -321,7 +321,7 @@ fn units(app: &mut CadApp, ctx: &egui::Context, open: &mut bool) {
 fn about(ctx: &egui::Context, open: &mut bool) {
     let t = Tokens::get();
     let tab_id = egui::Id::unique("about_tab");
-    egui::Window::new(crate::tl!("About CADCraft"))
+    egui::Window::new(crate::tl!("About STAR CAD"))
         .id(egui::Id::unique("About CADCraft"))
         .open(open)
         .default_size(vec2(640.0, 420.0))
@@ -341,13 +341,13 @@ fn about(ctx: &egui::Context, open: &mut bool) {
                 1 => crate::credits::contributors_ui(ui),
                 2 => crate::credits::models_ui(ui),
                 _ => {
-                    ui.heading(crate::tl!("CADCraft"));
+                    ui.heading("STAR CAD");
                     ui.label(crate::tf!("Version {version}", version = env!("CARGO_PKG_VERSION")));
                     ui.label(crate::tl!("Computer-aided design and drafting: an open-source, clean-room CAD application written in pure Rust."));
                     ui.add_space(6.0);
-                    ui.label(RichText::new(crate::tl!("One of the Crafting Apps by the ArtCraft team and community.")).color(t.text_dim));
-                    ui.hyperlink_to("getartcraft.com/apps/cadcraft", "https://getartcraft.com/apps/cadcraft");
-                    ui.hyperlink_to(crate::tl!("Join us on Discord"), "https://discord.gg/artcraft");
+                    ui.label(RichText::new("STAR7 Suite").color(t.text_dim));
+                    ui.hyperlink_to("suite.star-7.app.br", "https://suite.star-7.app.br");
+                    ui.hyperlink_to("GitHub", "https://github.com/Devstar7/cadcraft");
                     ui.add_space(6.0);
                     ui.label(RichText::new(crate::tl!("MIT OR Apache-2.0. Not affiliated with Autodesk, Inc.")).small().color(t.text_faint));
                 }
