@@ -142,7 +142,7 @@ $Dialog = Join-Path $Stage "installer-dialog.bmp"
 New-InstallerArt (Join-Path $Root "assets\app-icon\cadcraft-256.png") $Banner $Dialog
 
 # ---- MSI ---------------------------------------------------------------------------------------
-$Msi = Join-Path $Dist "cadcraft-$Version-windows-$Arch.msi"
+$Msi = Join-Path $Dist "star-cad-$Version-windows-$Arch.msi"
 Invoke-Native 'wix build' {
   wix build (Join-Path $PSScriptRoot 'cadcraft.wxs') -arch $Arch -ext WixToolset.UI.wixext `
     -d "Version=$MsiVersion" -d "BinDir=$Stage" -d "IconPath=$(Join-Path $Root 'assets\app-icon\cadcraft.ico')" `
@@ -169,7 +169,7 @@ if ($env:CRAFT_FONTS_DIR) {
     Copy-Item $ofl.FullName (Join-Path $Portable "OFL-$($ofl.Directory.Name).txt")
   }
 }
-$Zip = Join-Path $Dist "cadcraft-$Version-windows-$Arch-portable.zip"
+$Zip = Join-Path $Dist "star-cad-$Version-windows-$Arch-portable.zip"
 Remove-Item -Force $Zip -ErrorAction SilentlyContinue
 Compress-Archive -Path $Portable -DestinationPath $Zip
 
