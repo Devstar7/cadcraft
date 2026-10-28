@@ -107,12 +107,47 @@ if ($env:CRAFT_FONTS_DIR) {
 }
 # ---- end font notices for the MSI --------------------------------------------------------------
 
+# ---- Installer Art (WiX banner + dialog background) -------------------------------------------
+function New-InstallerArt([string] $IconPng, [string] $BannerOut, [string] $DialogOut) {
+  Add-Type -AssemblyName System.Drawing
+  $paper = [System.Drawing.ColorTranslator]::FromHtml("#f4f6f6")
+  $accent = [System.Drawing.ColorTranslator]::FromHtml("#f05a5b")
+  $icon = [System.Drawing.Image]::FromFile($IconPng)
+  try {
+    foreach ($spec in @(@($BannerOut, 493, 58), @($DialogOut, 493, 312))) {
+      $bmp = New-Object System.Drawing.Bitmap $spec[1], $spec[2], ([System.Drawing.Imaging.PixelFormat]::Format24bppRgb)
+      $g = [System.Drawing.Graphics]::FromImage($bmp)
+      try {
+        $g.InterpolationMode = [System.Drawing.Drawing2D.InterpolationMode]::HighQualityBicubic
+        $g.SmoothingMode = [System.Drawing.Drawing2D.SmoothingMode]::AntiAlias
+        $g.Clear([System.Drawing.Color]::White)
+        if ($spec[2] -eq 58) {
+          $g.DrawImage($icon, 493 - 46 - 8, 6, 46, 46)
+        } else {
+          $panel = New-Object System.Drawing.SolidBrush $paper
+          $stripe = New-Object System.Drawing.SolidBrush $accent
+          $g.FillRectangle($panel, 0, 0, 164, 312)
+          $g.FillRectangle($stripe, 160, 0, 4, 312)
+          $g.DrawImage($icon, 18, 64, 124, 124)
+          $panel.Dispose(); $stripe.Dispose()
+        }
+      } finally { $g.Dispose() }
+      $bmp.Save($spec[0], [System.Drawing.Imaging.ImageFormat]::Bmp)
+      $bmp.Dispose()
+    }
+  } finally { $icon.Dispose() }
+}
+$Banner = Join-Path $Stage "installer-banner.bmp"
+$Dialog = Join-Path $Stage "installer-dialog.bmp"
+New-InstallerArt (Join-Path $Root "assets\app-icon\cadcraft-256.png") $Banner $Dialog
+
 # ---- MSI ---------------------------------------------------------------------------------------
 $Msi = Join-Path $Dist "cadcraft-$Version-windows-$Arch.msi"
 Invoke-Native 'wix build' {
   wix build (Join-Path $PSScriptRoot 'cadcraft.wxs') -arch $Arch -ext WixToolset.UI.wixext `
     -d "Version=$MsiVersion" -d "BinDir=$Stage" -d "IconPath=$(Join-Path $Root 'assets\app-icon\cadcraft.ico')" `
     -d "DocsDir=$Docs" -d "HasCraftFontLicences=$HasCraftFontLicences" `
+    -d "BannerBmp=$Banner" -d "DialogBmp=$Dialog" `
     -o $Msi
 }
 # wix writes its debug symbols (.wixpdb) next to the MSI; keep them out of the release assets.
