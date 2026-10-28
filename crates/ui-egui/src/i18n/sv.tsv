@@ -111,7 +111,7 @@
 	ByLayer	Enligt lager
 	CADCraft	CADCraft
 	STAR CAD Help	Hjälp för STAR CAD
-	CADCraft keeps these preferences, object snap modes and drafting toggles for your user account and restores them when it starts.	CADCraft sparar de här inställningarna, objektfästena och ritlägena för ditt användarkonto och återställer dem när programmet startar.
+	STAR CAD keeps these preferences, object snap modes and drafting toggles for your user account and restores them when it starts.	STAR CAD sparar de här inställningarna, objektfästena och ritlägena för ditt användarkonto och återställer dem när programmet startar.
 	Cancel	Avbryt
 	Cartesian (x, y)	Kartesisk (x, y)
 	Center	Centrum
@@ -1447,5 +1447,5 @@ menu	Modify	Ändra
 	Yards	Yard
 	Your changes will be lost if you don't save them.	Dina ändringar går förlorade om du inte sparar dem.
 	Check for Updates…	Sök efter uppdateringar…
-	CADCraft is up to date.	CADCraft är uppdaterat.
+	STAR CAD is up to date.	STAR CAD är uppdaterat.
 	Could not check for updates.	Det gick inte att söka efter uppdateringar.

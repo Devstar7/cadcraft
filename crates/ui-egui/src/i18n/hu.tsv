@@ -139,7 +139,7 @@
 	ByColor	Szín szerint
 	ByLayer	Réteg szerint
 	STAR CAD Help	A STAR CAD súgója
-	CADCraft keeps these preferences, object snap modes and drafting toggles for your user account and restores them when it starts.	A CADCraft ezeket a beállításokat, objektumillesztési módokat és rajzolási kapcsolókat a felhasználói fiókodhoz menti, és indításkor visszaállítja.
+	STAR CAD keeps these preferences, object snap modes and drafting toggles for your user account and restores them when it starts.	A STAR CAD ezeket a beállításokat, objektumillesztési módokat és rajzolási kapcsolókat a felhasználói fiókodhoz menti, és indításkor visszaállítja.
 	Calibrate	Kalibrálás
 	Calibrate 3D Mouse	3D egér kalibrálása
 	Cancel	Mégse
@@ -1345,5 +1345,5 @@ menu	Draw	Rajzolás
 menu	Modify	Módosítás
 menu	View	Nézet
 	Check for Updates…	Frissítések keresése…
-	CADCraft is up to date.	A CADCraft naprakész.
+	STAR CAD is up to date.	A STAR CAD naprakész.
 	Could not check for updates.	A frissítések keresése nem sikerült.

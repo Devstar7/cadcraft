@@ -1101,7 +1101,7 @@
 	An array that would create more objects than this is refused.	将拒绝创建超出此对象数量的阵列。
 	Time-sensitive right-click: a quick click is Enter, holding opens the menu	时间敏感右键：快速点击相当于回车，按住不放打开菜单
 	Turned off, a right-click while a command runs always opens the shortcut menu.	关闭后，在命令运行期间右键单击总是打开快捷菜单。
-	CADCraft keeps these preferences, object snap modes and drafting toggles for your user account and restores them when it starts.	CADCraft 会为你的用户账号保留这些偏好设置、对象捕捉模式和绘图切换开关，并在启动时恢复它们。
+	STAR CAD keeps these preferences, object snap modes and drafting toggles for your user account and restores them when it starts.	STAR CAD 会为你的用户账号保留这些偏好设置、对象捕捉模式和绘图切换开关，并在启动时恢复它们。
 	Reset to Defaults	恢复默认设置
 	Copy as JSON	复制为 JSON
 	Reset keeps the interface language.	重置时会保留界面语言。
@@ -1345,5 +1345,5 @@
 	US Survey Yard	美国测量码
 	US Survey Mile	美国测量英里
 	Check for Updates…	检查更新…
-	CADCraft is up to date.	CADCraft 已是最新版本。
+	STAR CAD is up to date.	STAR CAD 已是最新版本。
 	Could not check for updates.	无法检查更新。

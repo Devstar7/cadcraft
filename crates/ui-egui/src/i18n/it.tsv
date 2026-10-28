@@ -936,7 +936,7 @@ menu	Modify	Edita
 	Specify insertion point	Specificare il punto di inserimento
 	A drawing opened from a file keeps that file's format.	Un disegno aperto da un file conserva il formato di quel file.
 	An array that would create more objects than this is refused.	Una serie che creerebbe più oggetti di così viene rifiutata.
-	CADCraft keeps these preferences, object snap modes and drafting toggles for your user account and restores them when it starts.	CADCraft conserva queste preferenze, le modalità di snap ad oggetto e le impostazioni di disegno per il tuo account utente e le ripristina all'avvio.
+	STAR CAD keeps these preferences, object snap modes and drafting toggles for your user account and restores them when it starts.	STAR CAD conserva queste preferenze, le modalità di snap ad oggetto e le impostazioni di disegno per il tuo account utente e le ripristina all'avvio.
 	Changes apply at once and are kept for next time.	Le modifiche si applicano subito e restano per la prossima volta.
 	Command line history	Cronologia della riga di comando
 	Copy as JSON	Copia come JSON
@@ -1363,5 +1363,5 @@ menu	Modify	Edita
 	Select using two clicks only	Seleziona solo con due clic
 	Define each corner of the selection window with a separate click.	Definire ogni angolo della finestra di selezione con un clic separato.
 	Check for Updates…	Verifica aggiornamenti…
-	CADCraft is up to date.	CADCraft è aggiornato.
+	STAR CAD is up to date.	STAR CAD è aggiornato.
 	Could not check for updates.	Impossibile verificare gli aggiornamenti.

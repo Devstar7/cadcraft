@@ -108,7 +108,7 @@
 	ByLayer	PorCapa
 	CADCraft	CADCraft
 	STAR CAD Help	Ayuda de STAR CAD
-	CADCraft keeps these preferences, object snap modes and drafting toggles for your user account and restores them when it starts.	CADCraft guarda estas preferencias, los modos de referencia a objetos y los ajustes de dibujo para tu cuenta de usuario y los restaura al iniciarse.
+	STAR CAD keeps these preferences, object snap modes and drafting toggles for your user account and restores them when it starts.	STAR CAD guarda estas preferencias, los modos de referencia a objetos y los ajustes de dibujo para tu cuenta de usuario y los restaura al iniciarse.
 	Cancel	Cancelar
 	Cartesian (x, y)	Cartesianas (x, y)
 	Center	Centro
@@ -1252,5 +1252,5 @@
 	Query Texts	Consultar textos
 	Analyze Shapes	Analizar formas
 	Check for Updates…	Buscar actualizaciones…
-	CADCraft is up to date.	CADCraft está actualizado.
+	STAR CAD is up to date.	STAR CAD está actualizado.
 	Could not check for updates.	No se pudo buscar actualizaciones.

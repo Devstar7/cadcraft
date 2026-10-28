@@ -949,7 +949,7 @@
 # Options dialog (OPTIONS).
 	A drawing opened from a file keeps that file's format.	Креслення, відкрите з файлу, зберігає формат цього файлу.
 	An array that would create more objects than this is refused.	Масив, що створив би більше об'єктів, буде відхилено.
-	CADCraft keeps these preferences, object snap modes and drafting toggles for your user account and restores them when it starts.	CADCraft зберігає ці параметри, режими об'єктної прив'язки та перемикачі креслення для вашого облікового запису й відновлює їх під час запуску.
+	STAR CAD keeps these preferences, object snap modes and drafting toggles for your user account and restores them when it starts.	STAR CAD зберігає ці параметри, режими об'єктної прив'язки та перемикачі креслення для вашого облікового запису й відновлює їх під час запуску.
 	Changes apply at once and are kept for next time.	Зміни застосовуються одразу й зберігаються на наступний раз.
 	Command line history	Історія командного рядка
 	Copy as JSON	Копіювати як JSON
@@ -1369,5 +1369,5 @@
 	Customize	Налаштування інтерфейсу
 	Edit Command Aliases (PGP)...	Редагувати псевдоніми команд (PGP)...
 	Check for Updates…	Перевірити оновлення…
-	CADCraft is up to date.	Встановлено найновішу версію CADCraft.
+	STAR CAD is up to date.	Встановлено найновішу версію STAR CAD.
 	Could not check for updates.	Не вдалося перевірити оновлення.

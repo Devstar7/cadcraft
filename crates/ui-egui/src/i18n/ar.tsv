@@ -116,7 +116,7 @@
 	ByColor	حسب اللون
 	ByLayer	حسب الطبقة
 	STAR CAD Help	تعليمات STAR CAD
-	CADCraft keeps these preferences, object snap modes and drafting toggles for your user account and restores them when it starts.	يحتفظ CADCraft بهذه التفضيلات وأنماط الالتقاط بالكائن ومفاتيح تبديل الرسم لحساب مستخدمك ويعيدها عند بدء التشغيل.
+	STAR CAD keeps these preferences, object snap modes and drafting toggles for your user account and restores them when it starts.	يحتفظ STAR CAD بهذه التفضيلات وأنماط الالتقاط بالكائن ومفاتيح تبديل الرسم لحساب مستخدمك ويعيدها عند بدء التشغيل.
 	Calibrate	معايرة
 	Calibrate 3D Mouse	معايرة الفأرة ثلاثية الأبعاد
 	Cancel	إلغاء
@@ -1238,5 +1238,5 @@ menu	View	عرض
 @plural	{n} commit	{n} إيداع|{n} إيداع|{n} إيداعان|{n} إيداعات|{n} إيداعاً|{n} إيداع
 @plural	{n} contributor	{n} مساهم|{n} مساهم|{n} مساهمان|{n} مساهمين|{n} مساهماً|{n} مساهم
 	Check for Updates…	التحقق من وجود تحديثات…
-	CADCraft is up to date.	CADCraft محدّث.
+	STAR CAD is up to date.	STAR CAD محدّث.
 	Could not check for updates.	تعذّر التحقق من وجود تحديثات.

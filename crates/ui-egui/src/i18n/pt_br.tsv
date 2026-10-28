@@ -107,7 +107,7 @@
 	ByLayer	PorCamada
 	CADCraft	CADCraft
 	STAR CAD Help	Ajuda do STAR CAD
-	CADCraft keeps these preferences, object snap modes and drafting toggles for your user account and restores them when it starts.	O CADCraft mantém estas preferências, os modos de snap a objetos e as opções de desenho na sua conta de usuário e os restaura ao iniciar.
+	STAR CAD keeps these preferences, object snap modes and drafting toggles for your user account and restores them when it starts.	O STAR CAD mantém estas preferências, os modos de snap a objetos e as opções de desenho na sua conta de usuário e os restaura ao iniciar.
 	Cancel	Cancelar
 	Cartesian (x, y)	Cartesiano (x, y)
 	Center	Centro
@@ -1252,7 +1252,7 @@
 	Select using two clicks only	Selecionar apenas com dois cliques
 	Define each corner of the selection window with a separate click.	Defina cada canto da janela de seleção com um clique separado.
 	Check for Updates…	Verificar atualizações…
-	CADCraft is up to date.	O CADCraft está atualizado.
+	STAR CAD is up to date.	O STAR CAD está atualizado.
 	Could not check for updates.	Não foi possível verificar atualizações.
 
 	Portal STAR7 Suite…	Portal STAR7 Suite…
